@@ -2,7 +2,8 @@
     "scripts": {
         "api": "node ratingsAPI.js",
         "format": "prettier --single-quote --print-width=120 \"js/**/*.{js,jsx}\"",
-        "lint": "eslint **/*.{js,jsx} --quiet"
+        "lint": "eslint **/*.{js,jsx} --quiet",
+        "build": "webpack"
     },
     "dependencies": {
         "axios": "0.16.1",
